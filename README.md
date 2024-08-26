@@ -5,3 +5,6 @@ Two feature extraction methods, Bag of Words (BoW) and Term Frequency-Inverse Do
 The models' performance was evaluated based on accuracy, precision, recall, F1-score, and confusion matrices, revealing that Logistic Regression and Multinomial Naive Bayes outperformed Linear SVM in accuracy for sentiment classification. Additionally, WordCloud visualizations provided insights into the most frequently occurring words in positive and negative reviews.
 
 The project concludes that while the chosen models performed well, there is potential for further improvement through advanced preprocessing techniques and the integration of lexicon-based models for enhanced sentiment analysis.
+
+Note:-Due to Large Size of Dataset,It's not Uploaded in gitHub
+Refer this link for dataset:-https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
