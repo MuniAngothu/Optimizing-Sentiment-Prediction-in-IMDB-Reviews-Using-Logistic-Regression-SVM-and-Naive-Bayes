@@ -1,10 +1,66 @@
-Comparative Evaluation of Machine Learning Algorithms for Sentiment Classification in IMDB Movie Reviews focuses on predicting the sentiment (positive or negative) of movie reviews using various machine learning models. The dataset, comprising IMDB movie reviews and their corresponding sentiment labels, was initially preprocessed to remove noise, special characters, and stopwords, followed by text normalization through stemming.
+# Optimizing Sentiment Prediction in IMDB Reviews Using Logistic Regression, SVM, and Naive Bayes
 
-Two feature extraction methods, Bag of Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF), were employed to convert the textual data into numerical representations. These features were then used to train three different classification models: Logistic Regression, Linear Support Vector Machines (SVM), and Multinomial Naive Bayes.
+This repository contains the source code, datasets, and documentation for the project **"Optimizing Sentiment Prediction in IMDB Reviews"**, a sentiment analysis study comparing machine learning models to predict movie review sentiments.
 
-The models' performance was evaluated based on accuracy, precision, recall, F1-score, and confusion matrices, revealing that Logistic Regression and Multinomial Naive Bayes outperformed Linear SVM in accuracy for sentiment classification. Additionally, WordCloud visualizations provided insights into the most frequently occurring words in positive and negative reviews.
+## Table of Contents
+- [Introduction](#introduction)
+- [Motivation](#motivation)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Future Scope](#future-scope)
 
-The project concludes that while the chosen models performed well, there is potential for further improvement through advanced preprocessing techniques and the integration of lexicon-based models for enhanced sentiment analysis.
 
-Note:-Due to Large Size of Dataset,It's not Uploaded in gitHub
-Refer this link for dataset:-https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+---
+
+## Introduction
+
+Sentiment analysis is a natural language processing (NLP) task focused on identifying and classifying opinions expressed in text. This project analyzes **IMDB movie reviews** and compares multiple machine learning models, including:
+- Logistic Regression
+- Support Vector Machines (SVM)
+- Multinomial Naive Bayes
+
+The study highlights the efficiency of each model in predicting the sentiment of movie reviews, providing valuable insights for decision-making.
+
+---
+
+## Motivation
+
+The growing volume of user-generated reviews on platforms like IMDB presents an opportunity to apply sentiment analysis techniques to:
+- Summarize public opinions on movies.
+- Assist users in decision-making by predicting sentiment trends.
+- Enhance applications in marketing, product development, and audience analysis.
+
+---
+
+## Features
+
+- **Text Preprocessing**: Cleaning text, removing HTML tags, special characters, and stopwords.
+- **Feature Extraction**: Implementing Bag of Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF) models.
+- **Machine Learning Models**:
+  - Logistic Regression
+  - Linear Support Vector Machines
+  - Multinomial Naive Bayes
+- **Hyperparameter Tuning**: Optimizing models for better performance.
+- **Visualization**: Generating word clouds and confusion matrices.
+
+---
+
+## System Architecture
+
+1. **Data Loading**: Import IMDB dataset with 50K reviews.
+2. **Data Preprocessing**: Clean and normalize text data.
+3. **Feature Extraction**: Use BoW and TF-IDF to convert text into numerical vectors.
+4. **Model Training and Evaluation**: Train machine learning models and evaluate performance.
+5. **Visualization**: Visualize results using word clouds and confusion matrices.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MuniAngothu/Optimizing-Sentiment-Prediction.git
+   cd Optimizing-Sentiment-Prediction
